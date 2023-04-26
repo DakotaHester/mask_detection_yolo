@@ -1,0 +1,249 @@
+2023-04-17 15:46:51,766 INFO    StreamThr :17540 [internal.py:wandb_internal():87] W&B internal server running at pid: 17540, started at: 2023-04-17 15:46:51.756904
+2023-04-17 15:46:51,768 DEBUG   HandlerThread:17540 [handler.py:handle_request():144] handle_request: status
+2023-04-17 15:46:51,769 INFO    WriterThread:17540 [datastore.py:open_for_write():85] open: C:\M Usman\Study\Courses\Spring 23\Intro to ML\Project\yolov7\wandb\run-20230417_154651-1niii78o\run-1niii78o.wandb
+2023-04-17 15:46:51,770 DEBUG   SenderThread:17540 [sender.py:send():336] send: header
+2023-04-17 15:46:51,772 DEBUG   SenderThread:17540 [sender.py:send():336] send: run
+2023-04-17 15:46:51,774 INFO    SenderThread:17540 [sender.py:_maybe_setup_resume():723] checking resume status for None/YOLOR/1niii78o
+2023-04-17 15:46:52,260 DEBUG   HandlerThread:17540 [handler.py:handle_request():144] handle_request: check_version
+2023-04-17 15:46:52,260 INFO    SenderThread:17540 [dir_watcher.py:__init__():216] watching files in: C:\M Usman\Study\Courses\Spring 23\Intro to ML\Project\yolov7\wandb\run-20230417_154651-1niii78o\files
+2023-04-17 15:46:52,260 INFO    SenderThread:17540 [sender.py:_start_run_threads():1067] run started: 1niii78o with start time 1681764411.756904
+2023-04-17 15:46:52,260 DEBUG   SenderThread:17540 [sender.py:send_request():363] send_request: summary_record
+2023-04-17 15:46:52,260 INFO    SenderThread:17540 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-17 15:46:52,260 DEBUG   SenderThread:17540 [sender.py:send_request():363] send_request: check_version
+2023-04-17 15:46:52,391 DEBUG   HandlerThread:17540 [handler.py:handle_request():144] handle_request: run_start
+2023-04-17 15:46:52,420 DEBUG   HandlerThread:17540 [system_info.py:__init__():31] System info init
+2023-04-17 15:46:52,420 DEBUG   HandlerThread:17540 [system_info.py:__init__():46] System info init done
+2023-04-17 15:46:52,420 INFO    HandlerThread:17540 [system_monitor.py:start():151] Starting system monitor
+2023-04-17 15:46:52,420 INFO    SystemMonitor:17540 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-04-17 15:46:52,420 INFO    HandlerThread:17540 [system_monitor.py:probe():172] Collecting system info
+2023-04-17 15:46:52,427 INFO    SystemMonitor:17540 [interfaces.py:start():168] Started cpu
+2023-04-17 15:46:52,427 INFO    SystemMonitor:17540 [interfaces.py:start():168] Started disk
+2023-04-17 15:46:52,427 INFO    SystemMonitor:17540 [interfaces.py:start():168] Started gpu
+2023-04-17 15:46:52,434 INFO    SystemMonitor:17540 [interfaces.py:start():168] Started memory
+2023-04-17 15:46:52,445 INFO    SystemMonitor:17540 [interfaces.py:start():168] Started network
+2023-04-17 15:46:52,451 DEBUG   HandlerThread:17540 [system_info.py:probe():195] Probing system
+2023-04-17 15:46:52,462 DEBUG   HandlerThread:17540 [git.py:repo():40] git repository is invalid
+2023-04-17 15:46:52,462 DEBUG   HandlerThread:17540 [system_info.py:probe():241] Probing system done
+2023-04-17 15:46:52,462 DEBUG   HandlerThread:17540 [system_monitor.py:probe():181] {'os': 'Windows-10-10.0.22621-SP0', 'python': '3.9.15', 'heartbeatAt': '2023-04-17T20:46:52.451995', 'startedAt': '2023-04-17T20:46:51.744028', 'docker': None, 'cuda': None, 'args': ('--workers', '8', '--device', '0', '--batch-size', '32', '--data', 'data/mask.yaml', '--img', '640', '640', '--cfg', 'cfg/training/yolov7.yaml', '--weights', "''", '--name', 'yolov7', '--hyp', 'data/hyp.scratch.p5.yaml'), 'state': 'running', 'program': 'C:\\M Usman\\Study\\Courses\\Spring 23\\Intro to ML\\Project\\yolov7\\train.py', 'codePath': 'train.py', 'host': 'ABE-CNP0SK3', 'username': 'mu123', 'executable': 'C:\\Users\\mu123.ABE-CNP0SK3\\anaconda3\\envs\\yolo\\python.exe', 'cpu_count': 8, 'cpu_count_logical': 16, 'cpu_freq': {'current': 2555.0, 'min': 0.0, 'max': 3201.0}, 'cpu_freq_per_core': [{'current': 2555.0, 'min': 0.0, 'max': 3201.0}], 'disk': {'total': 3710.7558555603027, 'used': 857.8801155090332}, 'gpu': 'NVIDIA GeForce RTX 3070 Laptop GPU', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3070 Laptop GPU', 'memory_total': 8589934592}], 'memory': {'total': 63.351802825927734}}
+2023-04-17 15:46:52,462 INFO    HandlerThread:17540 [system_monitor.py:probe():182] Finished collecting system info
+2023-04-17 15:46:52,462 INFO    HandlerThread:17540 [system_monitor.py:probe():185] Publishing system info
+2023-04-17 15:46:52,462 DEBUG   HandlerThread:17540 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-04-17 15:46:52,462 ERROR   gpu       :17540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-04-17 15:46:52,462 DEBUG   HandlerThread:17540 [system_info.py:_save_pip():67] Saving pip packages done
+2023-04-17 15:46:52,462 DEBUG   HandlerThread:17540 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-04-17 15:46:53,272 INFO    Thread-17 :17540 [dir_watcher.py:_on_file_created():275] file/dir created: C:\M Usman\Study\Courses\Spring 23\Intro to ML\Project\yolov7\wandb\run-20230417_154651-1niii78o\files\wandb-summary.json
+2023-04-17 15:46:53,272 INFO    Thread-17 :17540 [dir_watcher.py:_on_file_created():275] file/dir created: C:\M Usman\Study\Courses\Spring 23\Intro to ML\Project\yolov7\wandb\run-20230417_154651-1niii78o\files\conda-environment.yaml
+2023-04-17 15:46:53,272 INFO    Thread-17 :17540 [dir_watcher.py:_on_file_created():275] file/dir created: C:\M Usman\Study\Courses\Spring 23\Intro to ML\Project\yolov7\wandb\run-20230417_154651-1niii78o\files\requirements.txt
+2023-04-17 15:46:54,474 ERROR   gpu       :17540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-04-17 15:46:56,498 ERROR   gpu       :17540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-04-17 15:46:58,503 ERROR   gpu       :17540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-04-17 15:47:00,117 DEBUG   HandlerThread:17540 [system_info.py:_save_conda():86] Saving conda packages done
+2023-04-17 15:47:00,117 INFO    HandlerThread:17540 [system_monitor.py:probe():187] Finished publishing system info
+2023-04-17 15:47:00,122 DEBUG   HandlerThread:17540 [handler.py:handle_request():144] handle_request: status_report
+2023-04-17 15:47:00,122 DEBUG   HandlerThread:17540 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-17 15:47:00,122 DEBUG   SenderThread:17540 [sender.py:send():336] send: files
+2023-04-17 15:47:00,122 INFO    SenderThread:17540 [sender.py:_save_file():1321] saving file wandb-metadata.json with policy now
+2023-04-17 15:47:00,138 DEBUG   HandlerThread:17540 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-17 15:47:00,138 DEBUG   SenderThread:17540 [sender.py:send_request():363] send_request: stop_status
+2023-04-17 15:47:00,269 DEBUG   SenderThread:17540 [sender.py:send():336] send: telemetry
+2023-04-17 15:47:00,269 DEBUG   SenderThread:17540 [sender.py:send():336] send: telemetry
+2023-04-17 15:47:00,269 DEBUG   SenderThread:17540 [sender.py:send():336] send: config
+2023-04-17 15:47:00,269 DEBUG   SenderThread:17540 [sender.py:send():336] send: config
+2023-04-17 15:47:00,329 INFO    Thread-17 :17540 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\M Usman\Study\Courses\Spring 23\Intro to ML\Project\yolov7\wandb\run-20230417_154651-1niii78o\files\conda-environment.yaml
+2023-04-17 15:47:00,329 INFO    Thread-17 :17540 [dir_watcher.py:_on_file_created():275] file/dir created: C:\M Usman\Study\Courses\Spring 23\Intro to ML\Project\yolov7\wandb\run-20230417_154651-1niii78o\files\output.log
+2023-04-17 15:47:00,332 INFO    Thread-17 :17540 [dir_watcher.py:_on_file_created():275] file/dir created: C:\M Usman\Study\Courses\Spring 23\Intro to ML\Project\yolov7\wandb\run-20230417_154651-1niii78o\files\wandb-metadata.json
+2023-04-17 15:47:00,504 ERROR   gpu       :17540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-04-17 15:47:00,614 INFO    wandb-upload_0:17540 [upload_job.py:push():138] Uploaded file C:\Users\MU123~1.ABE\AppData\Local\Temp\tmpqebci03ewandb\keexmi9a-wandb-metadata.json
+2023-04-17 15:47:02,351 INFO    Thread-17 :17540 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\M Usman\Study\Courses\Spring 23\Intro to ML\Project\yolov7\wandb\run-20230417_154651-1niii78o\files\output.log
+2023-04-17 15:47:02,510 ERROR   gpu       :17540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-04-17 15:47:02,999 DEBUG   HandlerThread:17540 [handler.py:handle_request():144] handle_request: status_report
+2023-04-17 15:47:04,383 INFO    Thread-17 :17540 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\M Usman\Study\Courses\Spring 23\Intro to ML\Project\yolov7\wandb\run-20230417_154651-1niii78o\files\output.log
+2023-04-17 15:47:04,524 ERROR   gpu       :17540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-04-17 15:47:06,547 ERROR   gpu       :17540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-04-17 15:47:08,041 DEBUG   HandlerThread:17540 [handler.py:handle_request():144] handle_request: status_report
+2023-04-17 15:47:08,564 ERROR   gpu       :17540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-04-17 15:47:10,570 ERROR   gpu       :17540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-04-17 15:47:12,588 ERROR   gpu       :17540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-04-17 15:47:13,087 DEBUG   HandlerThread:17540 [handler.py:handle_request():144] handle_request: status_report
+2023-04-17 15:47:14,593 ERROR   gpu       :17540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-04-17 15:47:15,163 DEBUG   HandlerThread:17540 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-17 15:47:15,163 DEBUG   HandlerThread:17540 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-17 15:47:16,607 ERROR   gpu       :17540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-04-17 15:47:18,119 DEBUG   HandlerThread:17540 [handler.py:handle_request():144] handle_request: status_report
+2023-04-17 15:47:18,625 ERROR   gpu       :17540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-04-17 15:47:20,193 DEBUG   HandlerThread:17540 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-17 15:47:20,635 ERROR   gpu       :17540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-04-17 15:47:22,680 ERROR   gpu       :17540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-04-17 15:47:23,168 DEBUG   HandlerThread:17540 [handler.py:handle_request():144] handle_request: status_report
+2023-04-17 15:47:23,547 INFO    Thread-17 :17540 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\M Usman\Study\Courses\Spring 23\Intro to ML\Project\yolov7\wandb\run-20230417_154651-1niii78o\files\config.yaml
+2023-04-17 15:47:24,685 ERROR   gpu       :17540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-04-17 15:47:25,253 DEBUG   HandlerThread:17540 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-17 15:47:26,698 ERROR   gpu       :17540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-04-17 15:47:28,567 DEBUG   HandlerThread:17540 [handler.py:handle_request():144] handle_request: status_report
+2023-04-17 15:47:28,709 ERROR   gpu       :17540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-04-17 15:47:30,290 DEBUG   HandlerThread:17540 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-17 15:47:30,729 ERROR   gpu       :17540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-04-17 15:47:32,636 INFO    Thread-17 :17540 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\M Usman\Study\Courses\Spring 23\Intro to ML\Project\yolov7\wandb\run-20230417_154651-1niii78o\files\output.log
+2023-04-17 15:47:32,731 ERROR   gpu       :17540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-04-17 15:47:33,795 DEBUG   HandlerThread:17540 [handler.py:handle_request():144] handle_request: status_report
+2023-04-17 15:47:34,746 ERROR   gpu       :17540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-04-17 15:47:35,323 DEBUG   HandlerThread:17540 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-17 15:47:36,761 ERROR   gpu       :17540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-04-17 15:47:38,764 ERROR   gpu       :17540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-04-17 15:47:38,826 DEBUG   HandlerThread:17540 [handler.py:handle_request():144] handle_request: status_report
+2023-04-17 15:47:40,388 DEBUG   HandlerThread:17540 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-17 15:47:40,775 ERROR   gpu       :17540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-04-17 15:47:42,787 ERROR   gpu       :17540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-04-17 15:47:43,872 DEBUG   HandlerThread:17540 [handler.py:handle_request():144] handle_request: status_report
+2023-04-17 15:47:44,792 ERROR   gpu       :17540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-04-17 15:47:45,424 DEBUG   HandlerThread:17540 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-17 15:47:46,798 ERROR   gpu       :17540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-04-17 15:47:48,807 ERROR   gpu       :17540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-04-17 15:47:48,934 DEBUG   HandlerThread:17540 [handler.py:handle_request():144] handle_request: status_report
+2023-04-17 15:47:50,480 DEBUG   HandlerThread:17540 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-17 15:47:50,814 ERROR   gpu       :17540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-04-17 15:47:52,449 DEBUG   SystemMonitor:17540 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-04-17 15:47:52,449 DEBUG   SenderThread:17540 [sender.py:send():336] send: stats
+2023-04-17 15:47:52,847 ERROR   gpu       :17540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-04-17 15:47:54,470 DEBUG   HandlerThread:17540 [handler.py:handle_request():144] handle_request: status_report
+2023-04-17 15:47:54,863 ERROR   gpu       :17540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-04-17 15:47:55,524 DEBUG   HandlerThread:17540 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-17 15:47:56,866 ERROR   gpu       :17540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-04-17 15:47:58,886 ERROR   gpu       :17540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-04-17 15:47:59,511 DEBUG   HandlerThread:17540 [handler.py:handle_request():144] handle_request: status_report
+2023-04-17 15:48:00,566 DEBUG   HandlerThread:17540 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-17 15:48:00,902 ERROR   gpu       :17540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-04-17 15:48:02,910 ERROR   gpu       :17540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-04-17 15:48:02,926 INFO    Thread-17 :17540 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\M Usman\Study\Courses\Spring 23\Intro to ML\Project\yolov7\wandb\run-20230417_154651-1niii78o\files\output.log
+2023-04-17 15:48:03,934 INFO    Thread-17 :17540 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\M Usman\Study\Courses\Spring 23\Intro to ML\Project\yolov7\wandb\run-20230417_154651-1niii78o\files\output.log
+2023-04-17 15:48:04,597 DEBUG   HandlerThread:17540 [handler.py:handle_request():144] handle_request: status_report
+2023-04-17 15:48:04,915 ERROR   gpu       :17540 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-04-17 15:48:05,607 DEBUG   HandlerThread:17540 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-17 15:48:06,594 DEBUG   SenderThread:17540 [sender.py:send():336] send: exit
+2023-04-17 15:48:06,594 INFO    SenderThread:17540 [sender.py:send_exit():559] handling exit code: 1
+2023-04-17 15:48:06,594 INFO    SenderThread:17540 [sender.py:send_exit():561] handling runtime: 74
+2023-04-17 15:48:06,594 INFO    SenderThread:17540 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-17 15:48:06,596 INFO    SenderThread:17540 [sender.py:send_exit():567] send defer
+2023-04-17 15:48:06,596 DEBUG   HandlerThread:17540 [handler.py:handle_request():144] handle_request: defer
+2023-04-17 15:48:06,596 INFO    HandlerThread:17540 [handler.py:handle_request_defer():170] handle defer: 0
+2023-04-17 15:48:06,596 DEBUG   SenderThread:17540 [sender.py:send_request():363] send_request: defer
+2023-04-17 15:48:06,596 INFO    SenderThread:17540 [sender.py:send_request_defer():583] handle sender defer: 0
+2023-04-17 15:48:06,596 INFO    SenderThread:17540 [sender.py:transition_state():587] send defer: 1
+2023-04-17 15:48:06,596 DEBUG   HandlerThread:17540 [handler.py:handle_request():144] handle_request: defer
+2023-04-17 15:48:06,596 INFO    HandlerThread:17540 [handler.py:handle_request_defer():170] handle defer: 1
+2023-04-17 15:48:06,596 DEBUG   SenderThread:17540 [sender.py:send_request():363] send_request: defer
+2023-04-17 15:48:06,596 INFO    SenderThread:17540 [sender.py:send_request_defer():583] handle sender defer: 1
+2023-04-17 15:48:06,596 INFO    SenderThread:17540 [sender.py:transition_state():587] send defer: 2
+2023-04-17 15:48:06,596 DEBUG   HandlerThread:17540 [handler.py:handle_request():144] handle_request: defer
+2023-04-17 15:48:06,596 INFO    HandlerThread:17540 [handler.py:handle_request_defer():170] handle defer: 2
+2023-04-17 15:48:06,596 INFO    HandlerThread:17540 [system_monitor.py:finish():161] Stopping system monitor
+2023-04-17 15:48:06,596 DEBUG   SystemMonitor:17540 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-04-17 15:48:06,605 DEBUG   SystemMonitor:17540 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-04-17 15:48:06,605 INFO    HandlerThread:17540 [interfaces.py:finish():175] Joined cpu
+2023-04-17 15:48:06,605 INFO    HandlerThread:17540 [interfaces.py:finish():175] Joined disk
+2023-04-17 15:48:06,636 INFO    HandlerThread:17540 [interfaces.py:finish():175] Joined gpu
+2023-04-17 15:48:06,636 INFO    HandlerThread:17540 [interfaces.py:finish():175] Joined memory
+2023-04-17 15:48:06,636 INFO    HandlerThread:17540 [interfaces.py:finish():175] Joined network
+2023-04-17 15:48:06,636 DEBUG   SenderThread:17540 [sender.py:send_request():363] send_request: defer
+2023-04-17 15:48:06,637 INFO    SenderThread:17540 [sender.py:send_request_defer():583] handle sender defer: 2
+2023-04-17 15:48:06,637 INFO    SenderThread:17540 [sender.py:transition_state():587] send defer: 3
+2023-04-17 15:48:06,637 DEBUG   HandlerThread:17540 [handler.py:handle_request():144] handle_request: defer
+2023-04-17 15:48:06,637 INFO    HandlerThread:17540 [handler.py:handle_request_defer():170] handle defer: 3
+2023-04-17 15:48:06,648 DEBUG   SenderThread:17540 [sender.py:send():336] send: stats
+2023-04-17 15:48:06,648 DEBUG   SenderThread:17540 [sender.py:send_request():363] send_request: defer
+2023-04-17 15:48:06,648 INFO    SenderThread:17540 [sender.py:send_request_defer():583] handle sender defer: 3
+2023-04-17 15:48:06,648 INFO    SenderThread:17540 [sender.py:transition_state():587] send defer: 4
+2023-04-17 15:48:06,648 DEBUG   HandlerThread:17540 [handler.py:handle_request():144] handle_request: defer
+2023-04-17 15:48:06,648 INFO    HandlerThread:17540 [handler.py:handle_request_defer():170] handle defer: 4
+2023-04-17 15:48:06,648 DEBUG   SenderThread:17540 [sender.py:send_request():363] send_request: defer
+2023-04-17 15:48:06,648 INFO    SenderThread:17540 [sender.py:send_request_defer():583] handle sender defer: 4
+2023-04-17 15:48:06,648 INFO    SenderThread:17540 [sender.py:transition_state():587] send defer: 5
+2023-04-17 15:48:06,648 DEBUG   HandlerThread:17540 [handler.py:handle_request():144] handle_request: defer
+2023-04-17 15:48:06,648 INFO    HandlerThread:17540 [handler.py:handle_request_defer():170] handle defer: 5
+2023-04-17 15:48:06,648 DEBUG   SenderThread:17540 [sender.py:send():336] send: summary
+2023-04-17 15:48:06,648 INFO    SenderThread:17540 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-17 15:48:06,648 DEBUG   SenderThread:17540 [sender.py:send_request():363] send_request: defer
+2023-04-17 15:48:06,648 INFO    SenderThread:17540 [sender.py:send_request_defer():583] handle sender defer: 5
+2023-04-17 15:48:06,648 INFO    SenderThread:17540 [sender.py:transition_state():587] send defer: 6
+2023-04-17 15:48:06,648 DEBUG   HandlerThread:17540 [handler.py:handle_request():144] handle_request: defer
+2023-04-17 15:48:06,648 INFO    HandlerThread:17540 [handler.py:handle_request_defer():170] handle defer: 6
+2023-04-17 15:48:06,648 DEBUG   SenderThread:17540 [sender.py:send_request():363] send_request: defer
+2023-04-17 15:48:06,648 INFO    SenderThread:17540 [sender.py:send_request_defer():583] handle sender defer: 6
+2023-04-17 15:48:06,648 INFO    SenderThread:17540 [sender.py:transition_state():587] send defer: 7
+2023-04-17 15:48:06,648 DEBUG   HandlerThread:17540 [handler.py:handle_request():144] handle_request: status_report
+2023-04-17 15:48:06,648 DEBUG   HandlerThread:17540 [handler.py:handle_request():144] handle_request: defer
+2023-04-17 15:48:06,648 INFO    HandlerThread:17540 [handler.py:handle_request_defer():170] handle defer: 7
+2023-04-17 15:48:06,648 DEBUG   SenderThread:17540 [sender.py:send_request():363] send_request: defer
+2023-04-17 15:48:06,648 INFO    SenderThread:17540 [sender.py:send_request_defer():583] handle sender defer: 7
+2023-04-17 15:48:06,964 INFO    Thread-17 :17540 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\M Usman\Study\Courses\Spring 23\Intro to ML\Project\yolov7\wandb\run-20230417_154651-1niii78o\files\wandb-summary.json
+2023-04-17 15:48:07,642 DEBUG   HandlerThread:17540 [handler.py:handle_request():144] handle_request: poll_exit
+2023-04-17 15:48:08,988 INFO    Thread-17 :17540 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\M Usman\Study\Courses\Spring 23\Intro to ML\Project\yolov7\wandb\run-20230417_154651-1niii78o\files\output.log
+2023-04-17 15:48:09,194 INFO    SenderThread:17540 [sender.py:transition_state():587] send defer: 8
+2023-04-17 15:48:09,194 DEBUG   SenderThread:17540 [sender.py:send_request():363] send_request: poll_exit
+2023-04-17 15:48:09,194 DEBUG   HandlerThread:17540 [handler.py:handle_request():144] handle_request: defer
+2023-04-17 15:48:09,194 INFO    HandlerThread:17540 [handler.py:handle_request_defer():170] handle defer: 8
+2023-04-17 15:48:09,194 DEBUG   SenderThread:17540 [sender.py:send_request():363] send_request: defer
+2023-04-17 15:48:09,194 INFO    SenderThread:17540 [sender.py:send_request_defer():583] handle sender defer: 8
+2023-04-17 15:48:09,194 INFO    SenderThread:17540 [sender.py:transition_state():587] send defer: 9
+2023-04-17 15:48:09,194 DEBUG   HandlerThread:17540 [handler.py:handle_request():144] handle_request: defer
+2023-04-17 15:48:09,194 INFO    HandlerThread:17540 [handler.py:handle_request_defer():170] handle defer: 9
+2023-04-17 15:48:09,194 DEBUG   SenderThread:17540 [sender.py:send_request():363] send_request: defer
+2023-04-17 15:48:09,194 INFO    SenderThread:17540 [sender.py:send_request_defer():583] handle sender defer: 9
+2023-04-17 15:48:09,194 INFO    SenderThread:17540 [dir_watcher.py:finish():362] shutting down directory watcher
+2023-04-17 15:48:09,998 INFO    SenderThread:17540 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\M Usman\Study\Courses\Spring 23\Intro to ML\Project\yolov7\wandb\run-20230417_154651-1niii78o\files\output.log
+2023-04-17 15:48:09,998 INFO    SenderThread:17540 [dir_watcher.py:finish():392] scan: C:\M Usman\Study\Courses\Spring 23\Intro to ML\Project\yolov7\wandb\run-20230417_154651-1niii78o\files
+2023-04-17 15:48:09,998 INFO    SenderThread:17540 [dir_watcher.py:finish():406] scan save: C:\M Usman\Study\Courses\Spring 23\Intro to ML\Project\yolov7\wandb\run-20230417_154651-1niii78o\files\conda-environment.yaml conda-environment.yaml
+2023-04-17 15:48:09,998 INFO    SenderThread:17540 [dir_watcher.py:finish():406] scan save: C:\M Usman\Study\Courses\Spring 23\Intro to ML\Project\yolov7\wandb\run-20230417_154651-1niii78o\files\config.yaml config.yaml
+2023-04-17 15:48:10,003 INFO    SenderThread:17540 [dir_watcher.py:finish():406] scan save: C:\M Usman\Study\Courses\Spring 23\Intro to ML\Project\yolov7\wandb\run-20230417_154651-1niii78o\files\output.log output.log
+2023-04-17 15:48:10,005 INFO    SenderThread:17540 [dir_watcher.py:finish():406] scan save: C:\M Usman\Study\Courses\Spring 23\Intro to ML\Project\yolov7\wandb\run-20230417_154651-1niii78o\files\requirements.txt requirements.txt
+2023-04-17 15:48:10,005 INFO    SenderThread:17540 [dir_watcher.py:finish():406] scan save: C:\M Usman\Study\Courses\Spring 23\Intro to ML\Project\yolov7\wandb\run-20230417_154651-1niii78o\files\wandb-metadata.json wandb-metadata.json
+2023-04-17 15:48:10,005 INFO    SenderThread:17540 [dir_watcher.py:finish():406] scan save: C:\M Usman\Study\Courses\Spring 23\Intro to ML\Project\yolov7\wandb\run-20230417_154651-1niii78o\files\wandb-summary.json wandb-summary.json
+2023-04-17 15:48:10,010 INFO    SenderThread:17540 [sender.py:transition_state():587] send defer: 10
+2023-04-17 15:48:10,010 DEBUG   HandlerThread:17540 [handler.py:handle_request():144] handle_request: defer
+2023-04-17 15:48:10,010 INFO    HandlerThread:17540 [handler.py:handle_request_defer():170] handle defer: 10
+2023-04-17 15:48:10,015 DEBUG   SenderThread:17540 [sender.py:send_request():363] send_request: defer
+2023-04-17 15:48:10,015 INFO    SenderThread:17540 [sender.py:send_request_defer():583] handle sender defer: 10
+2023-04-17 15:48:10,015 INFO    SenderThread:17540 [file_pusher.py:finish():162] shutting down file pusher
+2023-04-17 15:48:10,522 INFO    wandb-upload_4:17540 [upload_job.py:push():138] Uploaded file C:\M Usman\Study\Courses\Spring 23\Intro to ML\Project\yolov7\wandb\run-20230417_154651-1niii78o\files\wandb-summary.json
+2023-04-17 15:48:10,598 INFO    wandb-upload_1:17540 [upload_job.py:push():138] Uploaded file C:\M Usman\Study\Courses\Spring 23\Intro to ML\Project\yolov7\wandb\run-20230417_154651-1niii78o\files\config.yaml
+2023-04-17 15:48:10,598 INFO    wandb-upload_3:17540 [upload_job.py:push():138] Uploaded file C:\M Usman\Study\Courses\Spring 23\Intro to ML\Project\yolov7\wandb\run-20230417_154651-1niii78o\files\requirements.txt
+2023-04-17 15:48:10,676 INFO    wandb-upload_2:17540 [upload_job.py:push():138] Uploaded file C:\M Usman\Study\Courses\Spring 23\Intro to ML\Project\yolov7\wandb\run-20230417_154651-1niii78o\files\output.log
+2023-04-17 15:48:10,676 INFO    wandb-upload_0:17540 [upload_job.py:push():138] Uploaded file C:\M Usman\Study\Courses\Spring 23\Intro to ML\Project\yolov7\wandb\run-20230417_154651-1niii78o\files\conda-environment.yaml
+2023-04-17 15:48:10,897 INFO    Thread-16 :17540 [sender.py:transition_state():587] send defer: 11
+2023-04-17 15:48:10,897 DEBUG   HandlerThread:17540 [handler.py:handle_request():144] handle_request: defer
+2023-04-17 15:48:10,897 INFO    HandlerThread:17540 [handler.py:handle_request_defer():170] handle defer: 11
+2023-04-17 15:48:10,897 DEBUG   SenderThread:17540 [sender.py:send_request():363] send_request: defer
+2023-04-17 15:48:10,897 INFO    SenderThread:17540 [sender.py:send_request_defer():583] handle sender defer: 11
+2023-04-17 15:48:10,897 INFO    SenderThread:17540 [file_pusher.py:join():167] waiting for file pusher
+2023-04-17 15:48:10,897 INFO    SenderThread:17540 [sender.py:transition_state():587] send defer: 12
+2023-04-17 15:48:10,898 DEBUG   HandlerThread:17540 [handler.py:handle_request():144] handle_request: defer
+2023-04-17 15:48:10,898 INFO    HandlerThread:17540 [handler.py:handle_request_defer():170] handle defer: 12
+2023-04-17 15:48:10,898 DEBUG   SenderThread:17540 [sender.py:send_request():363] send_request: defer
+2023-04-17 15:48:10,898 INFO    SenderThread:17540 [sender.py:send_request_defer():583] handle sender defer: 12
+2023-04-17 15:48:11,515 INFO    SenderThread:17540 [sender.py:transition_state():587] send defer: 13
+2023-04-17 15:48:11,515 DEBUG   HandlerThread:17540 [handler.py:handle_request():144] handle_request: defer
+2023-04-17 15:48:11,515 INFO    HandlerThread:17540 [handler.py:handle_request_defer():170] handle defer: 13
+2023-04-17 15:48:11,515 DEBUG   SenderThread:17540 [sender.py:send_request():363] send_request: defer
+2023-04-17 15:48:11,515 INFO    SenderThread:17540 [sender.py:send_request_defer():583] handle sender defer: 13
+2023-04-17 15:48:11,515 INFO    SenderThread:17540 [sender.py:transition_state():587] send defer: 14
+2023-04-17 15:48:11,515 DEBUG   HandlerThread:17540 [handler.py:handle_request():144] handle_request: defer
+2023-04-17 15:48:11,515 DEBUG   SenderThread:17540 [sender.py:send():336] send: final
+2023-04-17 15:48:11,515 INFO    HandlerThread:17540 [handler.py:handle_request_defer():170] handle defer: 14
+2023-04-17 15:48:11,515 DEBUG   SenderThread:17540 [sender.py:send():336] send: footer
+2023-04-17 15:48:11,515 DEBUG   SenderThread:17540 [sender.py:send_request():363] send_request: defer
+2023-04-17 15:48:11,515 INFO    SenderThread:17540 [sender.py:send_request_defer():583] handle sender defer: 14
+2023-04-17 15:48:11,515 DEBUG   HandlerThread:17540 [handler.py:handle_request():144] handle_request: poll_exit
+2023-04-17 15:48:11,515 DEBUG   HandlerThread:17540 [handler.py:handle_request():144] handle_request: server_info
+2023-04-17 15:48:11,515 DEBUG   HandlerThread:17540 [handler.py:handle_request():144] handle_request: get_summary
+2023-04-17 15:48:11,515 DEBUG   SenderThread:17540 [sender.py:send_request():363] send_request: poll_exit
+2023-04-17 15:48:11,515 DEBUG   HandlerThread:17540 [handler.py:handle_request():144] handle_request: sampled_history
+2023-04-17 15:48:11,515 DEBUG   SenderThread:17540 [sender.py:send_request():363] send_request: server_info
+2023-04-17 15:48:11,892 INFO    MainThread:17540 [wandb_run.py:_footer_history_summary_info():3442] rendering history
+2023-04-17 15:48:11,892 INFO    MainThread:17540 [wandb_run.py:_footer_history_summary_info():3474] rendering summary
+2023-04-17 15:48:11,892 INFO    MainThread:17540 [wandb_run.py:_footer_sync_info():3398] logging synced files
+2023-04-17 15:48:11,892 DEBUG   HandlerThread:17540 [handler.py:handle_request():144] handle_request: shutdown
+2023-04-17 15:48:11,892 INFO    HandlerThread:17540 [handler.py:finish():841] shutting down handler
+2023-04-17 15:48:12,541 INFO    WriterThread:17540 [datastore.py:close():299] close: C:\M Usman\Study\Courses\Spring 23\Intro to ML\Project\yolov7\wandb\run-20230417_154651-1niii78o\run-1niii78o.wandb
+2023-04-17 15:48:12,904 INFO    SenderThread:17540 [sender.py:finish():1493] shutting down sender
+2023-04-17 15:48:12,904 INFO    SenderThread:17540 [file_pusher.py:finish():162] shutting down file pusher
+2023-04-17 15:48:12,904 INFO    SenderThread:17540 [file_pusher.py:join():167] waiting for file pusher

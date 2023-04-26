@@ -1,0 +1,6 @@
+train: ../Mask_Data/train/images  # train images
+val: ../Mask_Data/valid/images  # val images
+
+# Classes
+nc: 3  # number of classes
+names: ['with_mask', 'without_mask', 'mask_weared_incorrect']  # class names

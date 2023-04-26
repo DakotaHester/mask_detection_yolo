@@ -1,0 +1,251 @@
+2023-04-17 15:49:58,234 INFO    StreamThr :2844 [internal.py:wandb_internal():87] W&B internal server running at pid: 2844, started at: 2023-04-17 15:49:58.234187
+2023-04-17 15:49:58,234 DEBUG   HandlerThread:2844 [handler.py:handle_request():144] handle_request: status
+2023-04-17 15:49:58,234 INFO    WriterThread:2844 [datastore.py:open_for_write():85] open: C:\M Usman\Study\Courses\Spring 23\Intro to ML\Project\yolov7\wandb\run-20230417_154958-yn3dhmxf\run-yn3dhmxf.wandb
+2023-04-17 15:49:58,234 DEBUG   SenderThread:2844 [sender.py:send():336] send: header
+2023-04-17 15:49:58,234 DEBUG   SenderThread:2844 [sender.py:send():336] send: run
+2023-04-17 15:49:58,249 INFO    SenderThread:2844 [sender.py:_maybe_setup_resume():723] checking resume status for None/YOLOR/yn3dhmxf
+2023-04-17 15:49:58,787 DEBUG   HandlerThread:2844 [handler.py:handle_request():144] handle_request: check_version
+2023-04-17 15:49:58,787 INFO    SenderThread:2844 [dir_watcher.py:__init__():216] watching files in: C:\M Usman\Study\Courses\Spring 23\Intro to ML\Project\yolov7\wandb\run-20230417_154958-yn3dhmxf\files
+2023-04-17 15:49:58,787 INFO    SenderThread:2844 [sender.py:_start_run_threads():1067] run started: yn3dhmxf with start time 1681764598.234187
+2023-04-17 15:49:58,787 DEBUG   SenderThread:2844 [sender.py:send_request():363] send_request: summary_record
+2023-04-17 15:49:58,787 INFO    SenderThread:2844 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-17 15:49:58,787 DEBUG   SenderThread:2844 [sender.py:send_request():363] send_request: check_version
+2023-04-17 15:49:58,928 DEBUG   HandlerThread:2844 [handler.py:handle_request():144] handle_request: run_start
+2023-04-17 15:49:58,955 DEBUG   HandlerThread:2844 [system_info.py:__init__():31] System info init
+2023-04-17 15:49:58,955 DEBUG   HandlerThread:2844 [system_info.py:__init__():46] System info init done
+2023-04-17 15:49:58,955 INFO    HandlerThread:2844 [system_monitor.py:start():151] Starting system monitor
+2023-04-17 15:49:58,955 INFO    SystemMonitor:2844 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-04-17 15:49:58,955 INFO    HandlerThread:2844 [system_monitor.py:probe():172] Collecting system info
+2023-04-17 15:49:58,960 INFO    SystemMonitor:2844 [interfaces.py:start():168] Started cpu
+2023-04-17 15:49:58,960 INFO    SystemMonitor:2844 [interfaces.py:start():168] Started disk
+2023-04-17 15:49:58,960 INFO    SystemMonitor:2844 [interfaces.py:start():168] Started gpu
+2023-04-17 15:49:58,960 INFO    SystemMonitor:2844 [interfaces.py:start():168] Started memory
+2023-04-17 15:49:58,976 INFO    SystemMonitor:2844 [interfaces.py:start():168] Started network
+2023-04-17 15:49:58,976 DEBUG   HandlerThread:2844 [system_info.py:probe():195] Probing system
+2023-04-17 15:49:58,976 DEBUG   HandlerThread:2844 [git.py:repo():40] git repository is invalid
+2023-04-17 15:49:58,976 DEBUG   HandlerThread:2844 [system_info.py:probe():241] Probing system done
+2023-04-17 15:49:58,976 DEBUG   HandlerThread:2844 [system_monitor.py:probe():181] {'os': 'Windows-10-10.0.22621-SP0', 'python': '3.9.15', 'heartbeatAt': '2023-04-17T20:49:58.976785', 'startedAt': '2023-04-17T20:49:58.202348', 'docker': None, 'cuda': None, 'args': ('--workers', '8', '--device', '0', '--batch-size', '32', '--data', 'data/mask.yaml', '--img', '640', '640', '--cfg', 'cfg/training/yolov7.yaml', '--weights', "''", '--name', 'yolov7', '--hyp', 'data/hyp.scratch.p5.yaml'), 'state': 'running', 'program': 'C:\\M Usman\\Study\\Courses\\Spring 23\\Intro to ML\\Project\\yolov7\\train.py', 'codePath': 'train.py', 'host': 'ABE-CNP0SK3', 'username': 'mu123', 'executable': 'C:\\Users\\mu123.ABE-CNP0SK3\\anaconda3\\envs\\yolo\\python.exe', 'cpu_count': 8, 'cpu_count_logical': 16, 'cpu_freq': {'current': 2555.0, 'min': 0.0, 'max': 3201.0}, 'cpu_freq_per_core': [{'current': 2555.0, 'min': 0.0, 'max': 3201.0}], 'disk': {'total': 3710.7558555603027, 'used': 857.9028358459473}, 'gpu': 'NVIDIA GeForce RTX 3070 Laptop GPU', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3070 Laptop GPU', 'memory_total': 8589934592}], 'memory': {'total': 63.351802825927734}}
+2023-04-17 15:49:58,976 INFO    HandlerThread:2844 [system_monitor.py:probe():182] Finished collecting system info
+2023-04-17 15:49:58,976 INFO    HandlerThread:2844 [system_monitor.py:probe():185] Publishing system info
+2023-04-17 15:49:58,976 DEBUG   HandlerThread:2844 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-04-17 15:49:58,976 DEBUG   HandlerThread:2844 [system_info.py:_save_pip():67] Saving pip packages done
+2023-04-17 15:49:58,976 DEBUG   HandlerThread:2844 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-04-17 15:49:58,976 ERROR   gpu       :2844 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-04-17 15:49:59,802 INFO    Thread-17 :2844 [dir_watcher.py:_on_file_created():275] file/dir created: C:\M Usman\Study\Courses\Spring 23\Intro to ML\Project\yolov7\wandb\run-20230417_154958-yn3dhmxf\files\wandb-summary.json
+2023-04-17 15:49:59,802 INFO    Thread-17 :2844 [dir_watcher.py:_on_file_created():275] file/dir created: C:\M Usman\Study\Courses\Spring 23\Intro to ML\Project\yolov7\wandb\run-20230417_154958-yn3dhmxf\files\requirements.txt
+2023-04-17 15:49:59,802 INFO    Thread-17 :2844 [dir_watcher.py:_on_file_created():275] file/dir created: C:\M Usman\Study\Courses\Spring 23\Intro to ML\Project\yolov7\wandb\run-20230417_154958-yn3dhmxf\files\conda-environment.yaml
+2023-04-17 15:50:01,003 ERROR   gpu       :2844 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-04-17 15:50:03,028 ERROR   gpu       :2844 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-04-17 15:50:05,045 ERROR   gpu       :2844 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-04-17 15:50:06,693 DEBUG   HandlerThread:2844 [system_info.py:_save_conda():86] Saving conda packages done
+2023-04-17 15:50:06,693 INFO    HandlerThread:2844 [system_monitor.py:probe():187] Finished publishing system info
+2023-04-17 15:50:06,709 DEBUG   HandlerThread:2844 [handler.py:handle_request():144] handle_request: status_report
+2023-04-17 15:50:06,709 DEBUG   HandlerThread:2844 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-17 15:50:06,709 DEBUG   SenderThread:2844 [sender.py:send():336] send: files
+2023-04-17 15:50:06,709 INFO    SenderThread:2844 [sender.py:_save_file():1321] saving file wandb-metadata.json with policy now
+2023-04-17 15:50:06,718 DEBUG   HandlerThread:2844 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-17 15:50:06,718 DEBUG   SenderThread:2844 [sender.py:send_request():363] send_request: stop_status
+2023-04-17 15:50:06,850 INFO    Thread-17 :2844 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\M Usman\Study\Courses\Spring 23\Intro to ML\Project\yolov7\wandb\run-20230417_154958-yn3dhmxf\files\conda-environment.yaml
+2023-04-17 15:50:06,852 INFO    Thread-17 :2844 [dir_watcher.py:_on_file_created():275] file/dir created: C:\M Usman\Study\Courses\Spring 23\Intro to ML\Project\yolov7\wandb\run-20230417_154958-yn3dhmxf\files\wandb-metadata.json
+2023-04-17 15:50:06,852 DEBUG   SenderThread:2844 [sender.py:send():336] send: telemetry
+2023-04-17 15:50:06,852 DEBUG   SenderThread:2844 [sender.py:send():336] send: telemetry
+2023-04-17 15:50:06,852 DEBUG   SenderThread:2844 [sender.py:send():336] send: config
+2023-04-17 15:50:06,852 DEBUG   SenderThread:2844 [sender.py:send():336] send: config
+2023-04-17 15:50:07,056 ERROR   gpu       :2844 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-04-17 15:50:07,166 INFO    wandb-upload_0:2844 [upload_job.py:push():138] Uploaded file C:\Users\MU123~1.ABE\AppData\Local\Temp\tmp75jv707gwandb\ovw9sh0k-wandb-metadata.json
+2023-04-17 15:50:07,861 INFO    Thread-17 :2844 [dir_watcher.py:_on_file_created():275] file/dir created: C:\M Usman\Study\Courses\Spring 23\Intro to ML\Project\yolov7\wandb\run-20230417_154958-yn3dhmxf\files\output.log
+2023-04-17 15:50:08,891 INFO    Thread-17 :2844 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\M Usman\Study\Courses\Spring 23\Intro to ML\Project\yolov7\wandb\run-20230417_154958-yn3dhmxf\files\output.log
+2023-04-17 15:50:08,997 DEBUG   HandlerThread:2844 [handler.py:handle_request():144] handle_request: status_report
+2023-04-17 15:50:09,061 ERROR   gpu       :2844 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-04-17 15:50:10,913 INFO    Thread-17 :2844 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\M Usman\Study\Courses\Spring 23\Intro to ML\Project\yolov7\wandb\run-20230417_154958-yn3dhmxf\files\output.log
+2023-04-17 15:50:11,070 ERROR   gpu       :2844 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-04-17 15:50:13,081 ERROR   gpu       :2844 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-04-17 15:50:14,559 DEBUG   HandlerThread:2844 [handler.py:handle_request():144] handle_request: status_report
+2023-04-17 15:50:15,092 ERROR   gpu       :2844 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-04-17 15:50:17,106 ERROR   gpu       :2844 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-04-17 15:50:19,122 ERROR   gpu       :2844 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-04-17 15:50:19,597 DEBUG   HandlerThread:2844 [handler.py:handle_request():144] handle_request: status_report
+2023-04-17 15:50:21,132 ERROR   gpu       :2844 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-04-17 15:50:21,715 DEBUG   HandlerThread:2844 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-17 15:50:21,715 DEBUG   HandlerThread:2844 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-17 15:50:23,145 ERROR   gpu       :2844 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-04-17 15:50:24,647 DEBUG   HandlerThread:2844 [handler.py:handle_request():144] handle_request: status_report
+2023-04-17 15:50:25,152 ERROR   gpu       :2844 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-04-17 15:50:26,759 DEBUG   HandlerThread:2844 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-17 15:50:27,161 ERROR   gpu       :2844 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-04-17 15:50:29,208 ERROR   gpu       :2844 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-04-17 15:50:29,671 DEBUG   HandlerThread:2844 [handler.py:handle_request():144] handle_request: status_report
+2023-04-17 15:50:30,051 INFO    Thread-17 :2844 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\M Usman\Study\Courses\Spring 23\Intro to ML\Project\yolov7\wandb\run-20230417_154958-yn3dhmxf\files\config.yaml
+2023-04-17 15:50:31,226 ERROR   gpu       :2844 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-04-17 15:50:31,791 DEBUG   HandlerThread:2844 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-17 15:50:33,241 ERROR   gpu       :2844 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-04-17 15:50:34,891 DEBUG   HandlerThread:2844 [handler.py:handle_request():144] handle_request: status_report
+2023-04-17 15:50:35,256 ERROR   gpu       :2844 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-04-17 15:50:36,854 DEBUG   HandlerThread:2844 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-17 15:50:37,262 ERROR   gpu       :2844 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-04-17 15:50:39,268 ERROR   gpu       :2844 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-04-17 15:50:40,437 DEBUG   HandlerThread:2844 [handler.py:handle_request():144] handle_request: status_report
+2023-04-17 15:50:41,168 INFO    Thread-17 :2844 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\M Usman\Study\Courses\Spring 23\Intro to ML\Project\yolov7\wandb\run-20230417_154958-yn3dhmxf\files\output.log
+2023-04-17 15:50:41,286 ERROR   gpu       :2844 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-04-17 15:50:41,891 DEBUG   HandlerThread:2844 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-17 15:50:43,294 ERROR   gpu       :2844 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-04-17 15:50:45,314 ERROR   gpu       :2844 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-04-17 15:50:45,483 DEBUG   HandlerThread:2844 [handler.py:handle_request():144] handle_request: status_report
+2023-04-17 15:50:46,954 DEBUG   HandlerThread:2844 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-17 15:50:47,316 ERROR   gpu       :2844 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-04-17 15:50:49,343 ERROR   gpu       :2844 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-04-17 15:50:50,533 DEBUG   HandlerThread:2844 [handler.py:handle_request():144] handle_request: status_report
+2023-04-17 15:50:51,356 ERROR   gpu       :2844 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-04-17 15:50:52,002 DEBUG   HandlerThread:2844 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-17 15:50:53,362 ERROR   gpu       :2844 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-04-17 15:50:55,375 ERROR   gpu       :2844 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-04-17 15:50:55,582 DEBUG   HandlerThread:2844 [handler.py:handle_request():144] handle_request: status_report
+2023-04-17 15:50:57,072 DEBUG   HandlerThread:2844 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-17 15:50:57,397 ERROR   gpu       :2844 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-04-17 15:50:58,985 DEBUG   SystemMonitor:2844 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-04-17 15:50:58,985 DEBUG   SenderThread:2844 [sender.py:send():336] send: stats
+2023-04-17 15:50:59,440 ERROR   gpu       :2844 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-04-17 15:51:01,006 DEBUG   HandlerThread:2844 [handler.py:handle_request():144] handle_request: status_report
+2023-04-17 15:51:01,460 ERROR   gpu       :2844 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-04-17 15:51:02,128 DEBUG   HandlerThread:2844 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-17 15:51:03,475 ERROR   gpu       :2844 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-04-17 15:51:05,496 ERROR   gpu       :2844 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-04-17 15:51:06,057 DEBUG   HandlerThread:2844 [handler.py:handle_request():144] handle_request: status_report
+2023-04-17 15:51:07,167 DEBUG   HandlerThread:2844 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-17 15:51:07,509 ERROR   gpu       :2844 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-04-17 15:51:09,526 ERROR   gpu       :2844 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-04-17 15:51:11,406 INFO    Thread-17 :2844 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\M Usman\Study\Courses\Spring 23\Intro to ML\Project\yolov7\wandb\run-20230417_154958-yn3dhmxf\files\output.log
+2023-04-17 15:51:11,544 ERROR   gpu       :2844 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-04-17 15:51:12,000 DEBUG   HandlerThread:2844 [handler.py:handle_request():144] handle_request: status_report
+2023-04-17 15:51:12,204 DEBUG   HandlerThread:2844 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-17 15:51:13,424 INFO    Thread-17 :2844 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\M Usman\Study\Courses\Spring 23\Intro to ML\Project\yolov7\wandb\run-20230417_154958-yn3dhmxf\files\output.log
+2023-04-17 15:51:13,559 ERROR   gpu       :2844 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-04-17 15:51:15,585 ERROR   gpu       :2844 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-04-17 15:51:16,013 DEBUG   SenderThread:2844 [sender.py:send():336] send: exit
+2023-04-17 15:51:16,014 INFO    SenderThread:2844 [sender.py:send_exit():559] handling exit code: 1
+2023-04-17 15:51:16,014 INFO    SenderThread:2844 [sender.py:send_exit():561] handling runtime: 77
+2023-04-17 15:51:16,015 INFO    SenderThread:2844 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-17 15:51:16,015 INFO    SenderThread:2844 [sender.py:send_exit():567] send defer
+2023-04-17 15:51:16,015 DEBUG   HandlerThread:2844 [handler.py:handle_request():144] handle_request: defer
+2023-04-17 15:51:16,015 INFO    HandlerThread:2844 [handler.py:handle_request_defer():170] handle defer: 0
+2023-04-17 15:51:16,016 DEBUG   SenderThread:2844 [sender.py:send_request():363] send_request: defer
+2023-04-17 15:51:16,016 INFO    SenderThread:2844 [sender.py:send_request_defer():583] handle sender defer: 0
+2023-04-17 15:51:16,016 INFO    SenderThread:2844 [sender.py:transition_state():587] send defer: 1
+2023-04-17 15:51:16,016 DEBUG   HandlerThread:2844 [handler.py:handle_request():144] handle_request: defer
+2023-04-17 15:51:16,016 INFO    HandlerThread:2844 [handler.py:handle_request_defer():170] handle defer: 1
+2023-04-17 15:51:16,016 DEBUG   SenderThread:2844 [sender.py:send_request():363] send_request: defer
+2023-04-17 15:51:16,016 INFO    SenderThread:2844 [sender.py:send_request_defer():583] handle sender defer: 1
+2023-04-17 15:51:16,016 INFO    SenderThread:2844 [sender.py:transition_state():587] send defer: 2
+2023-04-17 15:51:16,017 DEBUG   HandlerThread:2844 [handler.py:handle_request():144] handle_request: defer
+2023-04-17 15:51:16,017 INFO    HandlerThread:2844 [handler.py:handle_request_defer():170] handle defer: 2
+2023-04-17 15:51:16,017 INFO    HandlerThread:2844 [system_monitor.py:finish():161] Stopping system monitor
+2023-04-17 15:51:16,026 DEBUG   SystemMonitor:2844 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-04-17 15:51:16,026 DEBUG   SystemMonitor:2844 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-04-17 15:51:16,026 INFO    HandlerThread:2844 [interfaces.py:finish():175] Joined cpu
+2023-04-17 15:51:16,028 INFO    HandlerThread:2844 [interfaces.py:finish():175] Joined disk
+2023-04-17 15:51:16,051 INFO    HandlerThread:2844 [interfaces.py:finish():175] Joined gpu
+2023-04-17 15:51:16,051 INFO    HandlerThread:2844 [interfaces.py:finish():175] Joined memory
+2023-04-17 15:51:16,051 INFO    HandlerThread:2844 [interfaces.py:finish():175] Joined network
+2023-04-17 15:51:16,051 DEBUG   SenderThread:2844 [sender.py:send_request():363] send_request: defer
+2023-04-17 15:51:16,051 INFO    SenderThread:2844 [sender.py:send_request_defer():583] handle sender defer: 2
+2023-04-17 15:51:16,051 INFO    SenderThread:2844 [sender.py:transition_state():587] send defer: 3
+2023-04-17 15:51:16,052 DEBUG   SenderThread:2844 [sender.py:send():336] send: stats
+2023-04-17 15:51:16,052 DEBUG   HandlerThread:2844 [handler.py:handle_request():144] handle_request: defer
+2023-04-17 15:51:16,052 INFO    HandlerThread:2844 [handler.py:handle_request_defer():170] handle defer: 3
+2023-04-17 15:51:16,052 DEBUG   SenderThread:2844 [sender.py:send_request():363] send_request: defer
+2023-04-17 15:51:16,052 INFO    SenderThread:2844 [sender.py:send_request_defer():583] handle sender defer: 3
+2023-04-17 15:51:16,053 INFO    SenderThread:2844 [sender.py:transition_state():587] send defer: 4
+2023-04-17 15:51:16,053 DEBUG   HandlerThread:2844 [handler.py:handle_request():144] handle_request: defer
+2023-04-17 15:51:16,053 INFO    HandlerThread:2844 [handler.py:handle_request_defer():170] handle defer: 4
+2023-04-17 15:51:16,053 DEBUG   SenderThread:2844 [sender.py:send_request():363] send_request: defer
+2023-04-17 15:51:16,053 INFO    SenderThread:2844 [sender.py:send_request_defer():583] handle sender defer: 4
+2023-04-17 15:51:16,053 INFO    SenderThread:2844 [sender.py:transition_state():587] send defer: 5
+2023-04-17 15:51:16,053 DEBUG   HandlerThread:2844 [handler.py:handle_request():144] handle_request: defer
+2023-04-17 15:51:16,053 INFO    HandlerThread:2844 [handler.py:handle_request_defer():170] handle defer: 5
+2023-04-17 15:51:16,054 DEBUG   SenderThread:2844 [sender.py:send():336] send: summary
+2023-04-17 15:51:16,054 INFO    SenderThread:2844 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-17 15:51:16,055 DEBUG   SenderThread:2844 [sender.py:send_request():363] send_request: defer
+2023-04-17 15:51:16,055 INFO    SenderThread:2844 [sender.py:send_request_defer():583] handle sender defer: 5
+2023-04-17 15:51:16,055 INFO    SenderThread:2844 [sender.py:transition_state():587] send defer: 6
+2023-04-17 15:51:16,055 DEBUG   HandlerThread:2844 [handler.py:handle_request():144] handle_request: defer
+2023-04-17 15:51:16,055 INFO    HandlerThread:2844 [handler.py:handle_request_defer():170] handle defer: 6
+2023-04-17 15:51:16,055 DEBUG   SenderThread:2844 [sender.py:send_request():363] send_request: defer
+2023-04-17 15:51:16,055 INFO    SenderThread:2844 [sender.py:send_request_defer():583] handle sender defer: 6
+2023-04-17 15:51:16,056 INFO    SenderThread:2844 [sender.py:transition_state():587] send defer: 7
+2023-04-17 15:51:16,056 DEBUG   HandlerThread:2844 [handler.py:handle_request():144] handle_request: status_report
+2023-04-17 15:51:16,056 DEBUG   HandlerThread:2844 [handler.py:handle_request():144] handle_request: defer
+2023-04-17 15:51:16,056 INFO    HandlerThread:2844 [handler.py:handle_request_defer():170] handle defer: 7
+2023-04-17 15:51:16,056 DEBUG   SenderThread:2844 [sender.py:send_request():363] send_request: defer
+2023-04-17 15:51:16,056 INFO    SenderThread:2844 [sender.py:send_request_defer():583] handle sender defer: 7
+2023-04-17 15:51:16,450 INFO    Thread-17 :2844 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\M Usman\Study\Courses\Spring 23\Intro to ML\Project\yolov7\wandb\run-20230417_154958-yn3dhmxf\files\wandb-summary.json
+2023-04-17 15:51:17,011 DEBUG   HandlerThread:2844 [handler.py:handle_request():144] handle_request: poll_exit
+2023-04-17 15:51:17,462 INFO    Thread-17 :2844 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\M Usman\Study\Courses\Spring 23\Intro to ML\Project\yolov7\wandb\run-20230417_154958-yn3dhmxf\files\output.log
+2023-04-17 15:51:18,651 INFO    SenderThread:2844 [sender.py:transition_state():587] send defer: 8
+2023-04-17 15:51:18,651 DEBUG   SenderThread:2844 [sender.py:send_request():363] send_request: poll_exit
+2023-04-17 15:51:18,651 DEBUG   HandlerThread:2844 [handler.py:handle_request():144] handle_request: defer
+2023-04-17 15:51:18,651 INFO    HandlerThread:2844 [handler.py:handle_request_defer():170] handle defer: 8
+2023-04-17 15:51:18,651 DEBUG   SenderThread:2844 [sender.py:send_request():363] send_request: defer
+2023-04-17 15:51:18,651 INFO    SenderThread:2844 [sender.py:send_request_defer():583] handle sender defer: 8
+2023-04-17 15:51:18,651 INFO    SenderThread:2844 [sender.py:transition_state():587] send defer: 9
+2023-04-17 15:51:18,651 DEBUG   HandlerThread:2844 [handler.py:handle_request():144] handle_request: defer
+2023-04-17 15:51:18,651 INFO    HandlerThread:2844 [handler.py:handle_request_defer():170] handle defer: 9
+2023-04-17 15:51:18,651 DEBUG   SenderThread:2844 [sender.py:send_request():363] send_request: defer
+2023-04-17 15:51:18,651 INFO    SenderThread:2844 [sender.py:send_request_defer():583] handle sender defer: 9
+2023-04-17 15:51:18,651 INFO    SenderThread:2844 [dir_watcher.py:finish():362] shutting down directory watcher
+2023-04-17 15:51:19,489 INFO    SenderThread:2844 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\M Usman\Study\Courses\Spring 23\Intro to ML\Project\yolov7\wandb\run-20230417_154958-yn3dhmxf\files\output.log
+2023-04-17 15:51:19,489 INFO    SenderThread:2844 [dir_watcher.py:finish():392] scan: C:\M Usman\Study\Courses\Spring 23\Intro to ML\Project\yolov7\wandb\run-20230417_154958-yn3dhmxf\files
+2023-04-17 15:51:19,489 INFO    SenderThread:2844 [dir_watcher.py:finish():406] scan save: C:\M Usman\Study\Courses\Spring 23\Intro to ML\Project\yolov7\wandb\run-20230417_154958-yn3dhmxf\files\conda-environment.yaml conda-environment.yaml
+2023-04-17 15:51:19,489 INFO    SenderThread:2844 [dir_watcher.py:finish():406] scan save: C:\M Usman\Study\Courses\Spring 23\Intro to ML\Project\yolov7\wandb\run-20230417_154958-yn3dhmxf\files\config.yaml config.yaml
+2023-04-17 15:51:19,489 INFO    SenderThread:2844 [dir_watcher.py:finish():406] scan save: C:\M Usman\Study\Courses\Spring 23\Intro to ML\Project\yolov7\wandb\run-20230417_154958-yn3dhmxf\files\output.log output.log
+2023-04-17 15:51:19,489 INFO    SenderThread:2844 [dir_watcher.py:finish():406] scan save: C:\M Usman\Study\Courses\Spring 23\Intro to ML\Project\yolov7\wandb\run-20230417_154958-yn3dhmxf\files\requirements.txt requirements.txt
+2023-04-17 15:51:19,489 INFO    SenderThread:2844 [dir_watcher.py:finish():406] scan save: C:\M Usman\Study\Courses\Spring 23\Intro to ML\Project\yolov7\wandb\run-20230417_154958-yn3dhmxf\files\wandb-metadata.json wandb-metadata.json
+2023-04-17 15:51:19,489 INFO    SenderThread:2844 [dir_watcher.py:finish():406] scan save: C:\M Usman\Study\Courses\Spring 23\Intro to ML\Project\yolov7\wandb\run-20230417_154958-yn3dhmxf\files\wandb-summary.json wandb-summary.json
+2023-04-17 15:51:19,504 INFO    SenderThread:2844 [sender.py:transition_state():587] send defer: 10
+2023-04-17 15:51:19,504 DEBUG   HandlerThread:2844 [handler.py:handle_request():144] handle_request: defer
+2023-04-17 15:51:19,504 INFO    HandlerThread:2844 [handler.py:handle_request_defer():170] handle defer: 10
+2023-04-17 15:51:19,505 DEBUG   SenderThread:2844 [sender.py:send_request():363] send_request: defer
+2023-04-17 15:51:19,505 INFO    SenderThread:2844 [sender.py:send_request_defer():583] handle sender defer: 10
+2023-04-17 15:51:19,505 INFO    SenderThread:2844 [file_pusher.py:finish():162] shutting down file pusher
+2023-04-17 15:51:19,918 INFO    wandb-upload_2:2844 [upload_job.py:push():138] Uploaded file C:\M Usman\Study\Courses\Spring 23\Intro to ML\Project\yolov7\wandb\run-20230417_154958-yn3dhmxf\files\output.log
+2023-04-17 15:51:19,965 INFO    wandb-upload_4:2844 [upload_job.py:push():138] Uploaded file C:\M Usman\Study\Courses\Spring 23\Intro to ML\Project\yolov7\wandb\run-20230417_154958-yn3dhmxf\files\wandb-summary.json
+2023-04-17 15:51:19,965 INFO    wandb-upload_0:2844 [upload_job.py:push():138] Uploaded file C:\M Usman\Study\Courses\Spring 23\Intro to ML\Project\yolov7\wandb\run-20230417_154958-yn3dhmxf\files\conda-environment.yaml
+2023-04-17 15:51:19,994 INFO    wandb-upload_3:2844 [upload_job.py:push():138] Uploaded file C:\M Usman\Study\Courses\Spring 23\Intro to ML\Project\yolov7\wandb\run-20230417_154958-yn3dhmxf\files\requirements.txt
+2023-04-17 15:51:19,995 INFO    wandb-upload_1:2844 [upload_job.py:push():138] Uploaded file C:\M Usman\Study\Courses\Spring 23\Intro to ML\Project\yolov7\wandb\run-20230417_154958-yn3dhmxf\files\config.yaml
+2023-04-17 15:51:20,219 INFO    Thread-16 :2844 [sender.py:transition_state():587] send defer: 11
+2023-04-17 15:51:20,220 DEBUG   HandlerThread:2844 [handler.py:handle_request():144] handle_request: defer
+2023-04-17 15:51:20,220 INFO    HandlerThread:2844 [handler.py:handle_request_defer():170] handle defer: 11
+2023-04-17 15:51:20,220 DEBUG   SenderThread:2844 [sender.py:send_request():363] send_request: defer
+2023-04-17 15:51:20,220 INFO    SenderThread:2844 [sender.py:send_request_defer():583] handle sender defer: 11
+2023-04-17 15:51:20,220 INFO    SenderThread:2844 [file_pusher.py:join():167] waiting for file pusher
+2023-04-17 15:51:20,220 INFO    SenderThread:2844 [sender.py:transition_state():587] send defer: 12
+2023-04-17 15:51:20,220 DEBUG   HandlerThread:2844 [handler.py:handle_request():144] handle_request: defer
+2023-04-17 15:51:20,220 INFO    HandlerThread:2844 [handler.py:handle_request_defer():170] handle defer: 12
+2023-04-17 15:51:20,220 DEBUG   SenderThread:2844 [sender.py:send_request():363] send_request: defer
+2023-04-17 15:51:20,220 INFO    SenderThread:2844 [sender.py:send_request_defer():583] handle sender defer: 12
+2023-04-17 15:51:20,507 INFO    SenderThread:2844 [sender.py:transition_state():587] send defer: 13
+2023-04-17 15:51:20,507 DEBUG   HandlerThread:2844 [handler.py:handle_request():144] handle_request: defer
+2023-04-17 15:51:20,507 INFO    HandlerThread:2844 [handler.py:handle_request_defer():170] handle defer: 13
+2023-04-17 15:51:20,507 DEBUG   SenderThread:2844 [sender.py:send_request():363] send_request: defer
+2023-04-17 15:51:20,507 INFO    SenderThread:2844 [sender.py:send_request_defer():583] handle sender defer: 13
+2023-04-17 15:51:20,507 INFO    SenderThread:2844 [sender.py:transition_state():587] send defer: 14
+2023-04-17 15:51:20,507 DEBUG   HandlerThread:2844 [handler.py:handle_request():144] handle_request: defer
+2023-04-17 15:51:20,507 DEBUG   SenderThread:2844 [sender.py:send():336] send: final
+2023-04-17 15:51:20,507 INFO    HandlerThread:2844 [handler.py:handle_request_defer():170] handle defer: 14
+2023-04-17 15:51:20,507 DEBUG   SenderThread:2844 [sender.py:send():336] send: footer
+2023-04-17 15:51:20,507 DEBUG   SenderThread:2844 [sender.py:send_request():363] send_request: defer
+2023-04-17 15:51:20,507 INFO    SenderThread:2844 [sender.py:send_request_defer():583] handle sender defer: 14
+2023-04-17 15:51:20,509 DEBUG   HandlerThread:2844 [handler.py:handle_request():144] handle_request: poll_exit
+2023-04-17 15:51:20,509 DEBUG   HandlerThread:2844 [handler.py:handle_request():144] handle_request: server_info
+2023-04-17 15:51:20,509 DEBUG   HandlerThread:2844 [handler.py:handle_request():144] handle_request: get_summary
+2023-04-17 15:51:20,509 DEBUG   SenderThread:2844 [sender.py:send_request():363] send_request: poll_exit
+2023-04-17 15:51:20,509 DEBUG   HandlerThread:2844 [handler.py:handle_request():144] handle_request: sampled_history
+2023-04-17 15:51:20,509 DEBUG   SenderThread:2844 [sender.py:send_request():363] send_request: server_info
+2023-04-17 15:51:20,780 INFO    MainThread:2844 [wandb_run.py:_footer_history_summary_info():3442] rendering history
+2023-04-17 15:51:20,780 INFO    MainThread:2844 [wandb_run.py:_footer_history_summary_info():3474] rendering summary
+2023-04-17 15:51:20,780 INFO    MainThread:2844 [wandb_run.py:_footer_sync_info():3398] logging synced files
+2023-04-17 15:51:20,780 DEBUG   HandlerThread:2844 [handler.py:handle_request():144] handle_request: shutdown
+2023-04-17 15:51:20,780 INFO    HandlerThread:2844 [handler.py:finish():841] shutting down handler
+2023-04-17 15:51:21,524 INFO    WriterThread:2844 [datastore.py:close():299] close: C:\M Usman\Study\Courses\Spring 23\Intro to ML\Project\yolov7\wandb\run-20230417_154958-yn3dhmxf\run-yn3dhmxf.wandb
+2023-04-17 15:51:21,795 INFO    SenderThread:2844 [sender.py:finish():1493] shutting down sender
+2023-04-17 15:51:21,795 INFO    SenderThread:2844 [file_pusher.py:finish():162] shutting down file pusher
+2023-04-17 15:51:21,795 INFO    SenderThread:2844 [file_pusher.py:join():167] waiting for file pusher
